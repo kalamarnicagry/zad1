@@ -10,7 +10,7 @@ public class CartTest {
   public void shouldCalculateTotalForMultipleProducts() {
     Cart cart = new Cart();
     cart.addProduct(new Product("pizza", 10));
-    cart.addProduct(new Product("yoghurt", 4.5));
+    cart.addProduct(new Product("joghurt", 4.5));
 
     assertEquals(14.5, cart.calculateTotal(), 0.001);
   }
